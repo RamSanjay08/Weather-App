@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html,body {
+  background-color: black;
+}
+
+.weather-section {
+  background-color: dodgerblue;
+  width: 30%;
+  margin: 80px auto;
+  border-radius: .8rem;
+  padding: 1rem 2rem;
+
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.input-container input {
+  width: 250px;
+  padding: .8rem;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  color: black;
+}
+
+.input-container button img {
+  width: 25px;
+  
+}
+
+.input-container button {
+  border: none;
+  padding: .5rem .8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.weather-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-content img {
+  width: 200px;
+}
+
+.weather-content h3,h4 {
+  font-size: 2.5rem;
+}
+
+.weather-content p {
+  font-size: .2rem;
+}
+
+.weather-content2 h3 {
+  font-size: 1.5rem
+}
+
+.weather-content2 p {
+  font-size: .8rem
+}
+
+.details {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.humidity-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
